@@ -1,0 +1,36 @@
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== ARQUIVOS GERADOS PELO SISTEMA =====
+# Pasta onde o programa salva alunos.json, turmas.json, atividades.json, etc.
+data/
+
+# JSONs gerados automaticamente
+*.json
+
+# ===== EXECUTÁVEIS =====
+*.exe
+*.dll
+
+# Arquivos do PyInstaller (caso gere .exe do Python)
+dist/
+build/
+*.spec
+
+# ===== LOGS E TEMPORÁRIOS =====
+*.log
+*.tmp
+*.cache
+.cache/
+
+# ===== EDITORES / IDEs =====
+.vscode/
+.idea/
+
+# ===== SISTEMA OPERACIONAL =====
+Thumbs.db
+.DS_Store
+desktop.ini
